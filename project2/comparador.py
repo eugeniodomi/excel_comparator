@@ -29,7 +29,7 @@ def comparar_excel(arquivo1, arquivo2):
 
             if valor1 != valor2:
                 diferencas_encontradas = True
-                relatorio_linhas.append(f"\n🔍 Linha {i+1}, Coluna '{coluna}' (posição {idx+1}):")
+                relatorio_linhas.append(f"\n Linha {i+1}, Coluna '{coluna}' (posição {idx+1}):")
                 relatorio_linhas.append(f" - Valor em {arquivo1}: {valor1}")
                 relatorio_linhas.append(f" - Valor em {arquivo2}: {valor2}")
 
