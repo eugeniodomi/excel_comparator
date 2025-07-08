@@ -1,0 +1,2 @@
+- menu interativo
+- opção de gerar no bash a info sem necessidade de gerar automaticamente o relatório

@@ -1,0 +1,2 @@
+Comparador simples, lançando relatório em txt;
+- Compara 3 colunas.

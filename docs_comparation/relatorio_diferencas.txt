@@ -1,3 +1,10 @@
 📄 RELATÓRIO DE DIFERENÇAS ENTRE ARQUIVOS EXCEL (3 primeiras colunas)
 ============================================================
-✅ Nenhuma diferença encontrada entre os arquivos nas 3 primeiras colunas.
+
+🔍 Linha 1, Coluna 'teste' (posição 1):
+ - Valor em arquivo1.xlsx: 1
+ - Valor em arquivo2.xlsx: 3
+
+🔍 Linha 2, Coluna 'ronaldo' (posição 3):
+ - Valor em arquivo1.xlsx: 5
+ - Valor em arquivo2.xlsx: a
