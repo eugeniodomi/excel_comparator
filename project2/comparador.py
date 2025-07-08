@@ -6,7 +6,7 @@ def comparar_excel(arquivo1, arquivo2):
         df1 = pd.read_excel(arquivo1)
         df2 = pd.read_excel(arquivo2)
     except Exception as e:
-        print(f"❌ Erro ao abrir os arquivos: {e}")
+        print(f" Erro ao abrir os arquivos: {e}")
         return None
 
     df1_sub = df1.iloc[:, 0:3].fillna('')
@@ -19,7 +19,7 @@ def comparar_excel(arquivo1, arquivo2):
 
     diferencas_encontradas = False
 
-    relatorio_linhas.append('📄 RELATÓRIO DE DIFERENÇAS ENTRE ARQUIVOS EXCEL (3 primeiras colunas)')
+    relatorio_linhas.append(' RELATÓRIO DE DIFERENÇAS ENTRE ARQUIVOS EXCEL (3 primeiras colunas)')
     relatorio_linhas.append('='*60)
 
     for i in range(max_linhas):
@@ -34,7 +34,7 @@ def comparar_excel(arquivo1, arquivo2):
                 relatorio_linhas.append(f" - Valor em {arquivo2}: {valor2}")
 
     if not diferencas_encontradas:
-        relatorio_linhas.append("✅ Nenhuma diferença encontrada entre os arquivos nas 3 primeiras colunas.")
+        relatorio_linhas.append(" Nenhuma diferença encontrada entre os arquivos nas 3 primeiras colunas.")
 
     return '\n'.join(relatorio_linhas)
 
@@ -58,9 +58,9 @@ def main():
         try:
             with open(nome_arquivo, 'w', encoding='utf-8') as f:
                 f.write(relatorio)
-            print(f"✅ Relatório salvo com sucesso em '{nome_arquivo}'")
+            print(f" Relatório salvo com sucesso em '{nome_arquivo}'")
         except Exception as e:
-            print(f"❌ Erro ao salvar o arquivo: {e}")
+            print(f" Erro ao salvar o arquivo: {e}")
     else:
         print("Relatório não salvo.")
 
