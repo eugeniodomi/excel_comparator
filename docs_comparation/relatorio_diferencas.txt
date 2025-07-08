@@ -1,0 +1,3 @@
+📄 RELATÓRIO DE DIFERENÇAS ENTRE ARQUIVOS EXCEL (3 primeiras colunas)
+============================================================
+✅ Nenhuma diferença encontrada entre os arquivos nas 3 primeiras colunas.
